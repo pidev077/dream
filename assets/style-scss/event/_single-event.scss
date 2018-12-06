@@ -1,0 +1,348 @@
+.tp_single_event{
+  .tp-event-top{
+    .entry-thumbnail{
+      text-align: center;
+      background: #333;
+      position: relative;
+      border-radius: 5px;
+      img{
+        max-width: 100%;
+        height: auto;
+        position: relative;
+        z-index: 3;
+        border-radius: 5px;
+      }
+      // margin-bottom: 20px;
+    }
+    .entry-countdown{
+      .tp_event_counter{
+        background: $accent-color;
+        border-radius: 5px;
+        span{
+          font-weight: bold;
+          color: #fff;
+        }
+      }
+    }
+  }
+  .entry-title{
+    padding: 25px 0;
+    position: relative;
+    h1{
+      font-size: 26px;
+      line-height: 28px;
+      color: #444444;
+      font-weight: 600;
+    }
+  }
+  .tp-event-content{
+      .event-extra-meta{
+        border-top: 1px solid #d5d5d5;
+        padding: 20px 0;
+        .details-event{
+          margin: 0;
+          padding: 0;
+          li{
+            display: inline-block;
+            margin-right: 40px;
+            i.fa{
+              font-size: 30px;
+              display: inline-block;
+              vertical-align: middle;
+              float: left;
+              color: $accent-color;
+              margin-right: 10px;
+            }
+            >div{
+              display: inline-block;
+              vertical-align:middle;
+              >span{
+                display: block;
+                text-transform: uppercase;
+                line-height: 20px;
+                &.edu-meta-top{
+                  font-size: 14px;
+                  color: #999999;
+                  font-weight: 700;
+                }
+                &.edu-meta-bot{
+                  font-size: 16px;
+                  color: #333333;
+                  font-weight: 700;
+                }
+              }
+            }
+            &.event-author{
+              img{
+                width: 50px;
+                display:inline-block;
+                vertical-align:middle;
+              }
+              >div{
+                padding-left: 10px;
+              }
+            }
+          }
+          &:first-child{
+            display: inline-block;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #d5d5d5;
+          }
+          @media (max-width: 768px){
+            li{
+              margin-top: 10px;
+            }
+          }
+        }
+      }
+      .bt-entry-register{
+        border-bottom: 1px solid #d5d5d5;
+        .entry-times{
+          .details-times-event{
+            margin: 0;
+            padding: 0;
+            li{
+              display: inline-block;
+              margin-right: 40px;
+              i.fa{
+                font-size: 30px;
+                display: inline-block;
+                vertical-align: middle;
+                float: left;
+                color: $accent-color;
+                margin-right: 10px;
+              }
+              >div{
+                display: inline-block;
+                vertical-align:middle;
+                >span{
+                  display: block;
+                  text-transform: uppercase;
+                  line-height: 20px;
+                  &.edu-meta-top{
+                    font-size: 14px;
+                    color: #999999;
+                    font-weight: 700;
+                  }
+                  &.edu-meta-bot{
+                    font-size: 16px;
+                    color: #333333;
+                    font-weight: 700;
+                  }
+                }
+              }
+              &.event-author{
+                img{
+                  width: 50px;
+                  display:inline-block;
+                  vertical-align:middle;
+                }
+                >div{
+                  padding-left: 10px;
+                }
+              }
+              &.tick-but{
+                a{
+                  background: $accent-color;
+                  color: #fff;
+                  border-radius: 30px;
+                  text-transform: uppercase;
+                  font-size: 15px;
+                  height: 45px;
+                  line-height: 45px;
+                  padding: 0 25px;
+                  letter-spacing: 0;
+                  font-weight: bold;
+                  font-family: 'Poppins';
+                  display: inline-block;
+                  text-decoration: none;
+                  &:hover{
+                    background: #333;
+                  }
+                }
+              }
+            }
+            &:first-child{
+              display: inline-block;
+              padding-bottom: 20px;
+            }
+            @media (max-width: 768px){
+              li{
+                margin-top: 10px;
+              }
+            }
+          }
+        }
+
+      }
+      .event-content{
+        blockquote{
+          font-weight: bold;
+          margin: 40px 0;
+          // border-color: $accent-color;
+        }
+        img{
+          max-width: 100%;
+          height: auto;
+          margin: 30px 0;
+        }
+      }
+      .entry-location{
+        margin-top: 30px;
+      }
+  }
+  .entry-location{
+    border-radius: 5px;
+    overflow: hidden;
+    .gm-style{
+      > div:first-child{
+        pointer-events: none;
+      }
+    }
+  }
+  .event-sharing{
+    margin: 40px 0 20px;
+    padding: 14px 0;
+    border-top: solid 1px #d5d5d5;
+    border-bottom: solid 1px #d5d5d5;
+    font-size: 13px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: bold;
+    > span{
+
+    }
+    .share-post-wrap{
+      display: inline-block;
+      margin-left: 15px;
+      > a{
+        display: inline-block;
+        margin-right: 10px;
+        font-size: 14px;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        text-align: center;
+        background: #f9f9f9;
+        border-radius: 5px;
+        color: #555555;
+        &:hover{
+          background: $accent-color;
+          color: #fff;
+        }
+      }
+    }
+    .x-entry-share{
+      display: inline-block;
+      vertical-align: bottom;
+      > p{
+        margin: 0;
+        display: none;
+      }
+      .x-share-options{
+        a.x-share{
+          display: inline-block;
+          position: relative;
+          width: 30px;
+          height: 30px;
+          vertical-align: middle;
+          margin-right: 20px;
+          i:before{
+            font-family: FontAwesome;
+            font-style: normal;
+            font-weight: normal;
+            text-decoration: inherit;
+            font-size: 12px;
+            color: #222;
+
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            -webkit-transform: translate(-50%, -50%);
+          }
+          i.x-icon-facebook-square:before{
+            content: "\f09a";
+
+          }
+          i.x-icon-twitter-square:before{
+            content: "\f099";
+          }
+          i.x-icon-google-plus-square:before{
+            content: "\f0d5";
+          }
+          i.x-icon-linkedin-square:before{
+            content: "\f0e1";
+          }
+          i.x-icon-pinterest-square:before{
+            content: "\f0d2";
+          }
+          i.x-icon-reddit-square:before{
+            content: "\f1a1";
+          }
+          i.x-icon-envelope-square:before{
+            content: "\f0e0";
+          }
+        }
+      }
+    }
+    .single-entry-tag{
+      display: inline-block;
+      margin-left: 15px;
+      margin-top: 0;
+      a{
+        border: none;
+        margin-left: 0px;
+        padding: 5px 0px;
+        text-transform: none;
+        font-weight: normal;
+        color: #555;
+        margin-bottom: 0;
+      }
+    }
+  }
+}
+#event-lightbox{
+  border-radius: 5px;
+  form.event_register{
+    ul.info-event {
+      padding: 0;
+      list-style: none;
+      li{
+        border-bottom: solid 1px #d5d5d5;
+        .label{
+          color: #333;
+          font-size: 14px;
+        }
+        .value {
+          padding: 0 20px;
+          font-weight: 600;
+          input#event_register_qty {
+              padding: 0 10px;
+              margin-bottom: 10px;
+          }
+        }
+      }
+    }
+    .event_register_foot{
+      button.event_register_submit.event_auth_button{
+        background: $accent-color;
+        color: #fff;
+        border-radius: 30px;
+        text-transform: uppercase;
+        font-size: 15px;
+        height: 45px;
+        line-height: 45px;
+        padding: 0 25px;
+        letter-spacing: 0;
+        font-weight: bold;
+        font-family: 'Poppins';
+        display: inline-block;
+        text-decoration: none;
+        &:hover{
+          background: #333;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,89 @@
+.event-style1{
+  .vc_grid-item-mini{
+    background: #fff;
+    -webkit-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1);
+    .event-style1-content{
+      padding: 20px 20px 60px 20px;
+      .event-icon-style1{
+        display: inline-block;
+        margin-bottom: 0;
+        margin-right: 10px;
+        .vc_icon_element-inner{
+          width: 2em;
+          height: 2em;
+          span.fa{
+            color: $accent-color;
+            margin-top: 2px;
+          }
+        }
+      }
+      .vc_gitem_event_day{
+        display: inline-block;
+        font-family: $fw-menu-font-family;
+        color: #adadad;
+        span{
+          font-size: 30px;
+          color: $accent-color;
+          margin-right: 7px;
+        }
+      }
+      .vc_custom_heading{
+        h4{
+          margin-top: 0;
+          font-family: $fw-menu-font-family;
+          font-size: 20px;
+          &:hover{
+            color: $accent-color;
+          }
+        }
+      }
+      .vc_gitem_event_time{
+        font-family: $fw-menu-font-family;
+        i.fa{
+          color: $accent-color;
+          margin-right: 10px;
+        }
+      }
+      .vc_gitem_event_location{
+        color: $accent-color;
+        font-family: $fw-menu-font-family;
+        i.fa{
+          color: $accent-color;
+          margin-right: 10px;
+        }
+      }
+      .event-ticket{
+        padding: 0;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        a.vc_btn3{
+          background: #272727 !important;
+          color: #fff !important;
+          font-family: $fw-menu-font-family;
+          font-weight: bold;
+          border-radius: 0 !important;
+          &:hover{
+            background: $accent-color !important;
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 992px) {
+  .event-style1{
+    width: calc(100% / 2);
+    &:last-child{
+      display: none !important;
+    }
+  }
+}
+@media (max-width: 767px) {
+  .event-style1{
+    width: calc(100%)
+  }
+}
